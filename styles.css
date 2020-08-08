@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  background: #000;
+}
+
+.main {
+  background: #000;
+  height: 200px;
+  width: 500px;
+  border: 5px solid #fff;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.main .badge {
+  position: absolute;
+  left: 34%;
+  top: -13%;
+  background: #000;
+  border: 5px solid #fff;
+  border-radius: 10px;
+  height: 40px;
+  width: 150px;
+}
+
+.main .badge p {
+  padding: 9px 0 0 35px;
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.main .clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .clock span {
+  color: #fff;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 60px;
+  text-align: center;
+  margin: 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: rgba(173, 173, 173, 0.5);
+  border-radius: 5px;
+  height: 130px;
+  width: 120px;
+}
+
+.main .clock p {
+  color: #fff;
+  font-size: 30px;
+  margin: auto 0;
+}
+/*# sourceMappingURL=styles.css.map */
